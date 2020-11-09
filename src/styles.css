@@ -1,0 +1,262 @@
+#root {
+  height: 100vh;
+  overflow-x: hidden;
+}
+.App {
+  font-family: sans-serif;
+  height: 100vh;
+}
+input:focus,
+select:focus,
+button:focus {
+  outline: none;
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
+}
+.icon {
+  background-color: white;
+}
+.filter-text {
+  font-weight: 600;
+}
+.fa-star {
+  color: orange;
+}
+.not {
+  color: #a3a3a3;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.content::-webkit-scrollbar {
+  display: none;
+}
+.css-1w1pnf0-UL {
+  width: 100%;
+}
+.sidebar div {
+  font-size: small;
+}
+.top {
+  position: fixed;
+  height: 6em;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.css-1ulq8u9-ratingsList li {
+  outline: none;
+}
+.list input {
+  display: none;
+}
+.list ul {
+  overflow-y: hidden;
+}
+.input-group {
+  background-color: white;
+}
+.input-group div span {
+  border: 0;
+}
+.input-group p {
+  border: 0;
+}
+.navbar.bg-light {
+  background-color: white !important;
+}
+.fa-star {
+  font-size: 13px;
+}
+.wifi {
+  padding: 10px;
+}
+.results-body div:not(.row):not(.appDetail) {
+  display: block;
+}
+.app {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px 0.5px #a3a3a3;
+}
+.app:hover {
+  box-shadow: 0 0 10px 1px dodgerblue;
+}
+.css-yw1mgn-Flex-leftLabel e1hwwpu60 .row {
+  width: 90%;
+}
+.countryFlagIcon {
+  height: 25px;
+  width: 40px;
+  margin-top: 10px;
+}
+.appDetail {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appDetail.btn {
+  min-width: 100px;
+}
+.appDetail {
+  margin-left: 30px;
+  margin-left: 30px;
+}
+.top-header {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  display: inline-flex;
+  background-color: white;
+}
+.body {
+  top: 10vh;
+  min-height: 80vh;
+  height: 89vh;
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+}
+.css-1w1pnf0-UL.eekr4lp2 {
+  max-height: unset;
+}
+.top-content-1 {
+  width: 60%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.top-content-2 {
+  width: 7.5%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.sidebar {
+  position: fixed;
+  bottom: 0px;
+  top: 5.2em;
+  width: 20em;
+}
+label {
+  margin: 0;
+}
+.css-1w1pnf0-UL li {
+  min-height: 28px;
+}
+button {
+  padding: 0;
+}
+.form-control {
+  line-height: 2.2;
+  padding: 0 0.75rem;
+  height: 30px;
+}
+.results {
+  top: 6em;
+  position: relative;
+  margin-left: 25em;
+  bottom: 0;
+}
+.results-body {
+  position: absolute;
+  left: 25em;
+}
+.filter .collapse .show {
+  height: 100px;
+  margin-top: 15%;
+}
+.nav.sidebar {
+  display: block !important;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  .top {
+    width: 360px;
+    height: unset;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .top-content-1 {
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 10%;
+  }
+  .top-content-1 .w-75 {
+    width: 100% !important;
+  }
+  .top-content-2 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .top-content-2 .btn-group {
+    width: 305px;
+  }
+  .body .navbar {
+    height: min-content;
+    width: 100%;
+  }
+  .sidebar {
+    all: unset !important;
+  }
+  .filter {
+    all: unset !important;
+  }
+  .results-body {
+    margin: unset;
+    margin-top: unset;
+    left: unset;
+    top: 300px;
+    position: unset;
+    top: unset;
+  }
+  .results-body div:not(.appDetail):not(.app):not(.resultDetails) {
+    width: 100% !important;
+  }
+  .resultDetails div {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  select.css-p4tgvk-sortOptions {
+    position: absolute;
+    left: 110px;
+    top: 7px;
+  }
+  select.css-p4tgvk-sortOptions .div {
+    display: flex;
+    width: 100% !important;
+  }
+  .appDetails {
+    display: inline-flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .appDetails div {
+    position: unset !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center !important;
+  }
+  .appDetail {
+    margin: 5px 10px;
+  }
+  .appDetails img {
+    margin-left: 145px;
+  }
+  .css-1ytwrls-Flex-rightLabel e1hwwpu60 .row {
+    margin-left: 0;
+  }
+  .d-flex.justify-content-end {
+    right: 0 !important;
+    width: fit-content !important;
+    position: unset;
+  }
+}
